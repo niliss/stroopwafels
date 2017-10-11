@@ -82,6 +82,7 @@ GEM
     diff-lcs (1.2.5)
     domain_name (0.5.20161021)
       unf (>= 0.0.5, < 1.0.0)
+    dotenv (2.2.1)
     erubis (2.7.0)
     execjs (2.7.0)
     factory_girl (4.7.0)
@@ -257,6 +258,7 @@ DEPENDENCIES
   coffee-rails (~> 4.2)
   database_cleaner
   devise
+  dotenv
   factory_girl_rails
   faker
   gibbon
@@ -286,4 +288,4 @@ RUBY VERSION
    ruby 2.3.1p112
 
 BUNDLED WITH
-   1.13.2
+   1.15.4
